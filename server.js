@@ -10,7 +10,10 @@ var express = require("express"),
   testdb = require("./config/testdb"),
   route = require("./server/routes");
 
-var port = process.env.PORT || 3333;
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3333;
+}
 
 /**
  * Connect to MongoDB.
