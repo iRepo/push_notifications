@@ -38,7 +38,7 @@
     "gravatar": "^1.1.1",
     "jsonwebtoken": "^5.0.1",
     "lodash": "^3.10.0",
-    "mongoose": "^4.0.5",
+    "mongoose": "^5.7.7",
     "morgan": "^1.5.3",
     "multiparty": "^4.1.2",
     "node-gcm": "^0.14.4",
